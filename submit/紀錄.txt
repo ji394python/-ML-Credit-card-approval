@@ -1,0 +1,15 @@
+[Y_train] 
+ - N:Y = 6.14:1 (最少要85.99634%)
+
+
+[X_train]
+ - 資料型態：
+   o- int64:  1個
+   o- float:  111個
+   o- object: 37個
+       x- Normal：     20個
+       x- Date：       10個
+       x- useless：    4個
+       x- jobtitle：   1個
+       x- proportion： 2個
+

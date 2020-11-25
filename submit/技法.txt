@@ -1,0 +1,10 @@
+[資料分析的邏輯]
+ 1. 先看benchmark (即我只猜一個的話 準確率會多少)
+ 2. 用one hot encoder比Label encoder好的原因為 標籤編碼會讓電腦以為2>0
+
+
+[Series替換文字]
+ - X_train['issue_d'] = X_train['issue_d'].apply(lambda x: str(x)[:3])
+
+
+
